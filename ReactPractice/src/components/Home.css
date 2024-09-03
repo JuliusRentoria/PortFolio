@@ -1,0 +1,32 @@
+.container {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  padding-top: 150px;
+  align-items: center;
+}
+
+.info {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange items in a column */
+  margin: 40px;
+  font-size: 20px;
+}
+
+.info p {
+  font-style: oblique;
+}
+
+.info h1 {
+  font-size: 4rem;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center; /* Center image vertically */
+}
+
+.imageContainer img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}

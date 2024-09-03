@@ -1,0 +1,17 @@
+/* App.css */
+
+/* Apply a black background color to the entire body */
+body {
+  background-color: black;
+  color: white; /* Set text color to white for better contrast */
+  margin: 0;
+  font-family: monospace; /* Optional: Set a default font */
+  align-items: center;
+}
+
+/* Optional: Apply styling to the root container */
+.App-container {
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: row;
+}
