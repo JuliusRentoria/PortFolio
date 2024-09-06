@@ -1,0 +1,77 @@
+.nav-link {
+  color: #ff801f;
+  font-size: 1rem;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+  font-family: "outfit";
+}
+
+.navbar-nav {
+  flex-direction: column;
+  justify-content: right;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.nav-link-home {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nav-link-home:hover {
+  color: #08090b;
+  color: white;
+}
+
+.nav-link-about {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nav-link-about:hover {
+  color: #343a40;
+  color: white;
+}
+
+.nav-link-projects {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.nav-link-projects:hover {
+  color: #343a40;
+  color: white;
+}
+
+.nav-link-contact {
+  font-size: 25px;
+  margin-right: 50px;
+  font-weight: 500;
+}
+
+.nav-link-contact:hover {
+  color: white;
+}
+
+.nav-link-brand {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.nav-link-brand:hover {
+  color: white;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #9c9c9c; /* Add a subtle border */
+}
+
+.offcanvas-body {
+  padding: 1rem; /* Add padding to the offcanvas menu */
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}

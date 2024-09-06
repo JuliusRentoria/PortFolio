@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 100px 170px;
+}
+
+.about-title {
+  margin-top: 10rem;
+}
+.about-title h1 {
+  font-size: 6rem;
+  color: #f76b15;
+}
+
+.about-section p {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.about-section {
+  display: flex;
+  gap: 50px;
+}
+
+.skills {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.about-skills {
+  margin-top: 100px;
+}
+
+.skills img {
+  width: 50px;
+  height: 50px;
+}
+
+.skills .html-css {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,8 +1,11 @@
+/* Base styles for larger screens (row layout) */
 .container {
-  display: flex; /* Use flexbox layout */
-  justify-content: center; /* Center content horizontally */
-  padding-top: 150px;
-  align-items: center;
+  display: flex; /* Use Flexbox to create a row layout */
+  flex-direction: row; /* Default direction is row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding-top: 100px;
+  flex-wrap: wrap; /* Allow items to wrap if needed */
 }
 
 .info {
@@ -10,10 +13,11 @@
   flex-direction: column; /* Arrange items in a column */
   margin: 40px;
   font-size: 20px;
+  text-align: left; /* Center-align text */
 }
 
 .info p {
-  font-style: oblique;
+  font-size: 1.5rem;
 }
 
 .info h1 {
@@ -22,11 +26,53 @@
 
 .imageContainer {
   display: flex;
+  justify-content: center; /* Center image horizontally */
   align-items: center; /* Center image vertically */
+  margin-bottom: 20px; /* Space below the image */
 }
 
 .imageContainer img {
   width: 380px;
   height: 380px;
   border-radius: 50%;
+}
+
+.linkedin,
+.github {
+  width: 40px; /* Set desired width */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor on hover */
+  margin-right: 10px;
+}
+
+/* Media query for small screens (up to 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding-top: 50px;
+  }
+
+  .info {
+    font-size: 18px; /* Smaller font size for smaller screens */
+    margin: 20px;
+  }
+
+  .info h1 {
+    font-size: 3rem; /* Adjust heading size */
+  }
+
+  .imageContainer img {
+    width: 300px; /* Smaller image size */
+    height: 300px;
+  }
+
+  .linkedin,
+  .github {
+    width: 35px; /* Adjust icon size */
+    margin-right: 5px; /* Reduce spacing between icons */
+  }
+}
+
+.home-info span {
+  color: #f76b15;
 }

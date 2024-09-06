@@ -3,9 +3,9 @@
 /* Apply a black background color to the entire body */
 body {
   background-color: black;
-  color: white; /* Set text color to white for better contrast */
+  color: #eeeeec;
   margin: 0;
-  font-family: monospace; /* Optional: Set a default font */
+  font-family: "outfit";
   align-items: center;
 }
 
